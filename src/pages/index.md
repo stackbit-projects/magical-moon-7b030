@@ -1,5 +1,5 @@
 ---
-title: Code Production ready Phone Validation and Parsing in 5min
+title: Production ready Phone Validation and Parsing in 5min
 sections:
   - type: hero_section
     title: as

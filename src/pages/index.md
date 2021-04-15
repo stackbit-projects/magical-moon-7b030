@@ -2,7 +2,7 @@
 title: Home
 sections:
   - type: hero_section
-    title: Phone Validation and Parsing in 5min
+    title: as
     subtitle: Optional hero section subtitle
     content: >-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl

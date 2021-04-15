@@ -2,7 +2,7 @@
 title: Production ready Phone Validation and Parsing
 sections:
   - type: hero_section
-    title: Production ready Phone Validation and Parsing API
+    title: Phone Validation and Parsing API ready for production
     subtitle: Optional hero section subtitle
     content: >-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl

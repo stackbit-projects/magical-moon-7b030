@@ -8,7 +8,7 @@ sections:
       Let us do the dirty work implementing and maintaining phone checks and
       parsing logic for more than 251 country.
     actions:
-      - label: Try Free
+      - label: Get API key
         url: /pricing
         style: primary
       - label: Learn More

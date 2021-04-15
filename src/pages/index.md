@@ -2,7 +2,7 @@
 title: Home
 sections:
   - type: hero_section
-    title: Save days of work on Implement Phone Validation and Parsing
+    title: Implement Phone Validation and Parsing in 5min
     subtitle: Optional hero section subtitle
     content: >-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl

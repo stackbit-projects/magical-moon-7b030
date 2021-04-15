@@ -326,7 +326,7 @@ sections:
     padding_bottom: large
     background_color: secondary
 seo:
-  title: Stackbit DIY Theme
+  title: Phone Number validation and lookup API
   description: The preview of the DIY theme
   extra:
     - name: 'og:type'

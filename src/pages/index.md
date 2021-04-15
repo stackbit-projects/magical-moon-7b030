@@ -4,9 +4,9 @@ sections:
   - type: hero_section
     title: Robust Phone Validation and Parsing API
     subtitle: Save weeks of work
-    content: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
-      ligula, cursus id molestie vel.
+    content: >
+      Let us do the dirty work implementing and maintaining phone checks and
+      parsing logic for more than 251 country.
     actions:
       - label: Try Free
         url: /pricing

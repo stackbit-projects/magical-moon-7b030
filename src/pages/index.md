@@ -327,7 +327,9 @@ sections:
     background_color: secondary
 seo:
   title: Phone Number validation and lookup API
-  description: The preview of the DIY theme
+  description: >-
+    Easy API to check if a phone number is valid or extract country, carrier,
+    landline.
   extra:
     - name: 'og:type'
       value: website

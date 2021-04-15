@@ -3,7 +3,7 @@ title: Production ready Phone Validation and Parsing
 sections:
   - type: hero_section
     title: Robust Phone Validation and Parsing API
-    subtitle: Optional hero section subtitle
+    subtitle: 'Save weeks of work to '
     content: >-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
       ligula, cursus id molestie vel.

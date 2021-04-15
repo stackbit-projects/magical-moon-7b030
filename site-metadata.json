@@ -5,7 +5,7 @@
     "mode": "light",
     "base_font": "serif",
     "header": {
-        "title": "Phone2info",
+        "title": "Phone Validator API",
         "logo_alt": "DIY logo",
         "has_primary_nav": true,
         "primary_nav_links": [

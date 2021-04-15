@@ -38,7 +38,7 @@
                 "style": "link"
             },
             {
-                "label": "Get Started",
+                "label": "Get API key",
                 "url": "/pricing",
                 "style": "primary"
             }

@@ -5,7 +5,7 @@
     "mode": "light",
     "base_font": "serif",
     "header": {
-        "title": "Phone2",
+        "title": "Phone2info",
         "logo": "images/classic/logo.svg",
         "logo_alt": "DIY logo",
         "has_primary_nav": true,

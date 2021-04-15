@@ -2,7 +2,7 @@
 title: Home
 sections:
   - type: hero_section
-    title: Implement Phone Validation and Parsing
+    title: Save Implement Phone Validation and Parsing
     subtitle: Optional hero section subtitle
     content: >-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl

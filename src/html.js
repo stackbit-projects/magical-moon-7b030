@@ -1,5 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
+import { MDXRenderer } from "gatsby-plugin-mdx"
 
 export default function HTML(props) {
   return (
@@ -12,11 +13,7 @@ export default function HTML(props) {
         <noscript key="noscript" id="gatsby-noscript">
           This app works best with JavaScript enabled.
         </noscript>
-        <div
-          key={`body`}
-          id="___gatsby"
-          dangerouslySetInnerHTML={{ __html: props.body }}
-        />
+        <MDXRenderer key={`body`} id="___gatsby">{props.body}</MDXRenderer>
         {props.postBodyComponents}
       </body>
     </html>

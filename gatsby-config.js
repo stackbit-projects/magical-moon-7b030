@@ -6,10 +6,11 @@ module.exports = {
     plugins: [
         `gatsby-plugin-react-helmet`,
         `gatsby-source-data`,
-        `gatsby-transformer-remark`,
+        `gatsby-plugin-mdx`,
         {
             resolve: `gatsby-source-filesystem`,
             options: {
+                extensions: [`.md`, `.mdx`],
                 name: `pages`,
                 path: `${__dirname}/src/pages`
             }

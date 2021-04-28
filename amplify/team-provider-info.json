@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-numberok-dev-73044-authRole",
+      "UnauthRoleArn": "arn:aws:iam::253569059195:role/amplify-numberok-dev-73044-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::253569059195:role/amplify-numberok-dev-73044-authRole",
+      "Region": "eu-central-1",
+      "DeploymentBucketName": "amplify-numberok-dev-73044-deployment",
+      "UnauthRoleName": "amplify-numberok-dev-73044-unauthRole",
+      "StackName": "amplify-numberok-dev-73044",
+      "StackId": "arn:aws:cloudformation:eu-central-1:253569059195:stack/amplify-numberok-dev-73044/f22116b0-9fd4-11eb-9c87-068e11d43e1e",
+      "AmplifyAppId": "d2jarbxjzecpnx"
+    },
+    "categories": {
+      "auth": {
+        "numberok113c2d54": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "auth": {
+    "numberok113c2d54": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}

@@ -8,6 +8,9 @@
 // use initialized flag to ensure that window.onGatsbyPreRouteUpdate() and
 // window.onGatsbyRouteUpdate() will not be called before
 // window.onGatsbyInitialClientRender() has run
+
+let exports = {}
+
 let initialized = false;
 
 exports.onInitialClientRender = () => {

@@ -17,6 +17,7 @@ export const query = graphql`
 
 export default class Page extends React.Component {
     render() {
+      console.log('PROPS', JSON.stringify(this.props))
         return (
             <Layout {...this.props}>
             <article className="page py-5 py-sm-6">
@@ -25,7 +26,7 @@ export default class Page extends React.Component {
             			<h1 className="page__title">{_.get(this.props, 'pageContext.frontmatter.title', null)}</h1>
             		</header>
             		<div className="page__body text-block">
-            			{htmlToReact(_.get(this.props, 'pageContext.html', null))}
+            			{htmlToReact(_.get(this.props, 'pageContext.body', null))}
             		</div>
             	</div>
             </article>

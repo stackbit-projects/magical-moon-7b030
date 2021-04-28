@@ -35,10 +35,10 @@ exports.onCreateNode = ({node, getNode, actions}, options) => {
 
     const {createNodeField} = actions;
 
-    if (node.internal.type === "MarkdownRemark") {
+    if (node.internal.type === "Mdx") {
         let fileNode = findFileNode({node, getNode});
         if (!fileNode) {
-            throw new Error('could not find parent File node for MarkdownRemark node: ' + node);
+            throw new Error('could not find parent File node for Mdx node: ' + node);
         }
 
         let url;
@@ -65,14 +65,14 @@ exports.createPages = ({graphql, getNode, actions, getNodesByType}) => {
     const {createPage, deletePage} = actions;
 
     // Use GraphQL to bring only the "id" and "html" (added by gatsby-transformer-remark)
-    // properties of the MarkdownRemark nodes. Don't bring additional fields
+    // properties of the Mdx nodes. Don't bring additional fields
     // such as "relativePath". Otherwise, Gatsby's GraphQL resolvers might infer
     // types these fields as File and change their structure. For example, the
     // "html" attribute exists only on a GraphQL node, but does not exist on the
     // underlying node.
     return graphql(`
     {
-      allMarkdownRemark {
+      allMdx{
         edges {
           node {
             id
@@ -86,7 +86,7 @@ exports.createPages = ({graphql, getNode, actions, getNodesByType}) => {
             return Promise.reject(result.errors);
         }
 
-        const nodes = result.data.allMarkdownRemark.edges.map(({node}) => node);
+        const nodes = result.data.allMdx.edges.map(({node}) => node);
         const siteNode = getNode('Site');
         const siteDataNode = getNode('SiteData');
         const sitePageNodes = getNodesByType('SitePage');
@@ -112,7 +112,7 @@ exports.createPages = ({graphql, getNode, actions, getNodesByType}) => {
         nodes.forEach(graphQLNode => {
             const node = getNode(graphQLNode.id);
             const url = node.fields.url;
-            
+
             const template = node.frontmatter.template;
             if (!template) {
                 console.error(`Error: undefined template for ${url}`);

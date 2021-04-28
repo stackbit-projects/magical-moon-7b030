@@ -9,17 +9,15 @@ sections:
     padding_bottom: small
   - type: grid_section
     grid_items:
-      - title: Personal
+      - title: Starter
         subtitle: Optional subtitle
         title_align: left
         content: |-
           ---
 
-          ### $9
+          ### Free
 
-          per month, billed yearly
-
-          * Et semper leo mattis orci conubia congue
+          * up to 150 queries per month
           * Quisque eleifend imperdiet tortor
           * Elementum eu rhoncus, volutpat
           * Nisi cubilia interdum ultricies
@@ -30,7 +28,7 @@ sections:
             style: primary
         actions_align: left
         actions_width: full-width
-      - title: Premium
+      - title: Professional
         subtitle: Optional subtitle
         title_align: left
         content: |-
